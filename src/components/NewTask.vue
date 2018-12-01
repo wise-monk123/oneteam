@@ -3,7 +3,7 @@
     <new-item></new-item>
      <div class="card" v-for="item in items" :key="item.id">
         <div class="card-block">
-          <h5 class="card-title"><span class="text-muted">#{{item.id}}</span>
+          <h5 class="card-title"><span class="text-muted">#T{{item.id}}</span>
           {{item.text}}<span :class="badgeClass(item)">{{badgeText(item)}}</span></h5>
         </div>
     </div>

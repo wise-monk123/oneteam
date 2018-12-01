@@ -36,6 +36,7 @@ export default {
         return this.items
       },
       set (items) {
+        console.log(items, this.id)
         this.$store.commit('updateItems', {
           items,
           id: this.id

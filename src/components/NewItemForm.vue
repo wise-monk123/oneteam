@@ -19,7 +19,6 @@ export default {
         this.$store.commit('addItem', {
           text: this.itemText
         })
-
         this.itemText = ''
       }
     }

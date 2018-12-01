@@ -2,7 +2,7 @@
   <div class="card task-lane-item">
     <div class="card-block">
       <h5 class="card-title">
-        <span class="text-muted">#{{item.id}}</span>
+        <span class="text-muted">#T{{item.id}}</span>
         {{item.text}}
       </h5>
     </div>
